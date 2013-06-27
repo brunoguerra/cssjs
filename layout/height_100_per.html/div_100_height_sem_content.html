@@ -1,0 +1,78 @@
+<html>
+	<head>
+	<style>
+		* {
+			margin: 0;
+			border: 0;
+			padding: 0;
+		}
+		
+		html, body
+		{
+		    height: 100%;
+		}
+		
+		body {
+			background-color: #f1f1f1;
+		}
+
+		div#header {
+			width: 1200px;
+			height: auto;
+			background-color: #e1e100;
+			margin: auto;
+			height: 200px;
+		}
+
+		#header div#side {
+			width: 330px;
+			background-color: #e1ffe1;
+			height: 100%;
+			float: left;
+		}
+		
+		#header div#content {
+			width: 870px;
+			height: 100%;
+			background-color: #ff66ff;
+			float: left;
+		}
+		
+		div#container {
+			width: 1200px;
+			background-color: #e1aae1;
+			margin: auto;
+			display: table;
+			height: calc(100% - 200px);
+		}
+		
+		#container div#side {
+			width: 330px;
+			background-color: #e100e1;
+			height: 100%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		#container div#content {
+			width: 870px;
+			height: 100%;
+			background-color: #ffffff;
+ 			display: inline-block;
+		}
+		
+	</style>
+	</head>
+	<body>
+		<div id="header">
+			<div id="side"></div>
+			<div id="content"></div>	
+		</div>
+		<div id="container">
+			<div id="side"> Lateral </div>
+			<div id="content">
+				test	
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,181 @@
+<html>
+	<head>
+	<style>
+		* {
+			margin: 0;
+			border: 0;
+			padding: 0;
+		}
+		
+		html, body
+		{
+		    height: 100%;
+		}
+		
+		body {
+			background-color: #f1f1f1;
+		}
+
+
+		a {
+			text-decoration: none;
+		}
+
+		/* layout */
+
+		div#header {
+			width: 1200px;
+			background-color: #dadada;
+			margin: auto; /* center div */
+			height: 200px;
+		}
+
+		#header div#side {
+			width: 330px;
+			background-color: #ededed;
+			height: 100%;
+			float: left;
+		}
+		
+		#header div#content {
+			width: 870px;
+			height: 100%;
+			background-color: #f1f1f1;
+			float: left;
+		}
+		
+		div#container {
+			width: 1200px;
+			background-color: #aeaeae;
+			margin: auto;
+			display: table;
+			height: calc(100% - 200px);
+		}
+		
+		#container div#side {
+			width: 330px;
+			background-color: #fafafa;
+			height: 100%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		#container div#content {
+			width: 870px;
+			height: 100%;
+			background-color: #ffffff;
+ 			display: inline-block;
+		}
+
+
+		
+	</style>
+	<link rel="stylesheet" href="gallery.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div id="side"></div>
+			<div id="content"></div>	
+		</div>
+		<div id="container">
+			<div id="side"> Lateral </div>
+			<div id="content">
+				<img class="show" src="http://static6.businessinsider.com/image/505a2152eab8ea211e000009-1200/kilauea-is-sometimes-called-a-drive-in-volcano-because-it-is-relatively-safe-and-easy-to-approach-of-course-the-danger-of-harmful-volcanic-gases-and-unstable-land-always-exists.jpg" width="800">		
+				<div class="gallery">
+					<div class="thumbs">
+						<ul>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+							<li>
+								<img>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+		 <script src="../js/jquery-1.5.1.min.js" ></script>
+		 <script src="jquery.galleryBitwise.js" ></script>
+		 <script type="text/javascript">
+		 	$(function() {
+		 		$('.gallery').galleryBitwise();
+		 	});
+		 </script>
+</html>
